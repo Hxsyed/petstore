@@ -1,0 +1,19 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}

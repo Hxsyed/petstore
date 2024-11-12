@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  petstore-flask-app:
+    build: .
+    volumes:
+      - ./backend:/app/backend
+      - ./frontend:/app/frontend
+    ports:
+      - "5000:5000"
+    environment:
+      FLASK_APP: backend/app.py
+      FLASK_ENV: development
