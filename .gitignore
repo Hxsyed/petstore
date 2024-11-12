@@ -3,7 +3,7 @@
 __pycache__/
 
 # Virtual environment folder
-venv/
+/venv/
 .env
 
 # SQLite database file
