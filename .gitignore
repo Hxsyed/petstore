@@ -1,0 +1,42 @@
+# Python compiled files
+*.pyc
+__pycache__/
+
+# Virtual environment folder
+venv/
+.env
+
+# SQLite database file
+*.db
+
+# Flask and app configuration files (if sensitive)
+instance/
+config.py
+*.env
+
+# Docker files
+*.env
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# VS Code settings
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# PyCharm files
+.idea/
+
+# Log files
+*.log
+
+# Ignore cached dependencies
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Ignore bytecode and cache directories
+*.py[cod]
